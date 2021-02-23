@@ -17,3 +17,114 @@ html {
     box-sizing: inherit;
 }
 
+/* header  */
+
+
+.header-main { 
+    position:relative;
+    height: 780px;
+    background-image: url("../images/fox.jpg");
+    background-size: cover;
+    background-position: center;
+ }
+
+.content-wrapper {
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.header-wrapper {
+    display: flex; 
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 20px;
+    margin-top: 1px;
+}
+
+.header-logo {
+    display: flex;
+    align-items: center;
+}
+
+.header-main .text-item {
+    color: #f7f7f7;
+    text-transform: uppercase;
+    font-family: 'Open Sans';
+    font-size: 32px;
+    padding-left: 13px;
+    margin-top: -4px;
+}
+
+.header-main .logo-item {
+    width: 71px;
+    height: 58px;
+}
+
+.header-main .nav-items { 
+    display: flex;
+    align-items: center; 
+}
+
+.header-main .anchor-item { 
+    color: #f7f7f7;
+    font-family: 'Open Sans';
+    text-decoration: none; 
+    font-size: 23px;
+    line-height: 60px;
+}
+
+.header-main .contacts-item { margin-left: 63px; } 
+
+ .header-main .loupe-item { margin-left: 67px; } 
+
+.header-main .anchor-button {
+    border: 2px solid #cd6326;
+    border-radius: 5px;
+    padding: 7px 23px 5px;
+    margin-left: 64px;
+}
+
+.header-main a.button-hover:hover { background-color: #cd6326; } 
+
+.header-main a.anchor-hover:hover { color: #cd6326; }
+
+/* section survival  */
+
+.survival .h1-item {
+    position: absolute;
+    left: 120px;
+    top: 201px;
+    font-family: 'Open Sans';
+    font-size: 48px;
+    line-height: 72px;
+    color: #cd6326;
+    letter-spacing: 1px;
+}
+
+.survival .p-item {
+    position: absolute;
+    left: 120px;
+    top: 322px;
+    font-family: 'Open Sans';
+    font-size: 18px;
+    line-height: 27px;
+    color: #f7f7f7;
+    width: 274px;
+}
+
+.survival .anchor-item {
+    position: absolute;
+    left: 119px;
+    top: 481px;
+    border-radius: 5px;
+    background-color: #cd6326;
+    padding: 16px 42px 17px 41px;
+    font-family: 'Open Sans';
+    text-decoration: none;
+    color: #f7f7f7;
+    font-size: 23px;
+    line-height: 26.95px;
+}
+
+.survival a.anchor-hover:hover { background-color: #e39128; }
