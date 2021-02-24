@@ -161,7 +161,7 @@ html {
 }
 
 .gri-wrapper .left-arrow {
-    background-image: url("/images/leftarrow.svg");
+    background-image: url("../images/leftarrow.svg");
     background-repeat: no-repeat;
     background-position: center;
 }
@@ -174,7 +174,7 @@ html {
 }
 
 .gri-wrapper .right-arrow {
-    background-image: url("/images/rightarrow.svg");
+    background-image: url("../images/rightarrow.svg");
     background-repeat: no-repeat;
     background-position: center;
 }
@@ -189,7 +189,7 @@ html {
 .gri-wrapper .deer-item {
     width: 300px;
     height: 360px;
-    background-image: url("/images/Deer.jpg");
+    background-image: url("../images/Deer.jpg");
     background-size: cover;
     background-position: center;
 }
@@ -197,7 +197,7 @@ html {
 .gri-wrapper .squirrel-item {
     width: 300px;
     height: 360px;
-    background-image: url("/images/Squirrel.jpg");
+    background-image: url("../images/Squirrel.jpg");
     background-size: cover;
     background-position: center;
 }
@@ -205,7 +205,7 @@ html {
 .gri-wrapper .bird-item {
     width: 300px;
     height: 360px;
-    background-image: url("/images/bird.jpg");
+    background-image: url("../images/bird.jpg");
     background-size: cover;
     background-position: center;
 }
