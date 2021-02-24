@@ -270,3 +270,51 @@ html {
     line-height: 27px;
     color: #f7f7f7;
 }
+
+/* section get notified */
+
+.get-notified { background-color: #ccc; }
+
+.get-notified .h3-item {
+    font-family: 'Open Sans';
+    font-size: 27px;
+    line-height: 40.5px;
+    text-align: center;
+    color: #333;
+    padding-top: 239px;
+}
+
+.get-notified .form-item {
+    display: flex;
+    justify-content: center;
+    margin-top: 59px;
+    padding-bottom: 239px;
+}
+
+.get-notified .email-item {
+    width: 540px;
+    padding: 24px 26px 16px 15px;
+    background-color: #ccc;
+    border-style: solid;
+    border-width: 1px 0px 1px 1px;
+}
+
+.get-notified input.email-item::placeholder {
+    font-family: 'Open Sans';
+    font-size: 23px;
+    line-height: 26.95;
+}
+
+.get-notified .send-item { padding: 14px 32px; }
+
+.get-notified .send-item {
+     background: #cd6326;
+     border: 1px solid #cd6326;
+     border-radius: 0px 5px 5px 0px;
+}
+
+.get-notified input.send-item[value = Send] {
+    font-family: 'Open Sans';
+    font-size: 23px;
+    color: #f7f7f7;
+}
