@@ -85,9 +85,29 @@ html {
     margin-left: 64px;
 }
 
-.header-main a.button-hover:hover { background-color: #cd6326; } 
+.header-main a.button-hover:hover { 
+    background-color: #cd6326; 
+    cursor: pointer;
+    transition: 0.3s;
+} 
 
-.header-main a.anchor-hover:hover { color: #cd6326; }
+.header-main .button-hover:focus {
+    background-color:#8d5615;
+    border:  #8d5615;
+}
+
+.header-main a.anchor-hover:hover { 
+    color: #cd6326; 
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.header-main .loupe-item:hover {
+    filter: invert(49%) sepia(16%) saturate(4160%) 
+    hue-rotate(349deg) brightness(87%) contrast(83%);
+    cursor: pointer;
+    transition: 0.3s;
+}
 
 /* section survival  */
 
@@ -127,7 +147,16 @@ html {
     line-height: 26.95px;
 }
 
-.survival a.anchor-hover:hover { background-color: #e39128; }
+.survival a.anchor-hover:hover { 
+    background-color: #e39128; 
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.survival .anchor-hover:focus {
+    background-color:#8d5615;
+    border:  #8d5615;
+}
 
 /* section latest articles  */
 
@@ -171,6 +200,7 @@ html {
     saturate(1060%) hue-rotate(96deg) 
     brightness(90%) contrast(88%);
     cursor: pointer;
+    transition: 0.3s;
 }
 
 .gri-wrapper .right-arrow {
@@ -184,6 +214,7 @@ html {
     saturate(1060%) hue-rotate(96deg) 
     brightness(90%) contrast(88%);
     cursor: pointer;
+    transition: 0.3s;
 }
 
 .gri-wrapper .deer-item {
@@ -366,7 +397,11 @@ html {
     line-height: 60px;
 }
 
-.footer-main .anchor-item:hover { color: #cd6326; }
+.footer-main .anchor-item:hover { 
+    color: #cd6326; 
+    cursor: pointer;
+    transition: 0.3s;
+}
 
 .footer-main .articles-item { margin-left: 13px; }
 
@@ -385,6 +420,7 @@ html {
     filter: invert(68%) sepia(78%) saturate(594%) 
     hue-rotate(338deg) brightness(83%) contrast(93%);
     cursor: pointer;
+    transition: 0.3s;
 }
 
 .footer-main .insta-item {
@@ -399,6 +435,7 @@ html {
     filter: invert(68%) sepia(78%) saturate(594%) 
     hue-rotate(338deg) brightness(83%) contrast(93%);
     cursor: pointer;
+    transition: 0.3s;
 }
 
 .footer-main .pinte-item {
@@ -413,6 +450,7 @@ html {
     filter: invert(68%) sepia(78%) saturate(594%) 
     hue-rotate(338deg) brightness(83%) contrast(93%);
     cursor: pointer;
+    transition: 0.3s;
 }
 
 
@@ -428,6 +466,7 @@ html {
     filter: invert(68%) sepia(78%) saturate(594%) 
     hue-rotate(338deg) brightness(83%) contrast(93%);
     cursor: pointer;
+    transition: 0.3s;
 }
 
 .footer-main .social-items { 
