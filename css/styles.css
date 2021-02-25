@@ -113,7 +113,7 @@ html {
 
 .survival .h1-item {
     position: absolute;
-    left: 120px;
+    left: 75px;
     top: 201px;
     font-family: 'Open Sans';
     font-size: 48px;
@@ -124,8 +124,8 @@ html {
 
 .survival .p-item {
     position: absolute;
-    left: 120px;
-    top: 322px;
+    left: 74px;
+    top: 324px;
     font-family: 'Open Sans';
     font-size: 18px;
     line-height: 27px;
@@ -135,7 +135,7 @@ html {
 
 .survival .anchor-item {
     position: absolute;
-    left: 119px;
+    left: 73px;
     top: 481px;
     border-radius: 5px;
     background-color: #cd6326;
