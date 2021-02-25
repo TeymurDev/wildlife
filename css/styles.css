@@ -318,3 +318,119 @@ html {
     font-size: 23px;
     color: #f7f7f7;
 }
+
+/* footer  */
+
+.footer-main {
+    background-image: url("../images/footerbg.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.footer-wrapper {
+    display: flex; 
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 150px;
+    padding-bottom: 150px;
+}
+
+.footer-logo {
+    display: flex;
+    align-items: center;
+}
+
+.footer-main .text-item {
+    color: #f7f7f7;
+    text-transform: uppercase;
+    font-family: 'Open Sans';
+    font-size: 32px;
+    margin-left: 13px;
+}
+
+.footer-main .logo-item {
+    width: 71px;
+    height: 58px;
+}
+
+.footer-main .nav-items { 
+    display: flex;
+    align-items: center; 
+}
+
+.footer-main .anchor-item { 
+    color: #f7f7f7;
+    font-family: 'Open Sans';
+    text-decoration: none; 
+    font-size: 23px;
+    line-height: 60px;
+}
+
+.footer-main .anchor-item:hover { color: #cd6326; }
+
+.footer-main .articles-item { margin-left: 13px; }
+
+.footer-main .aboutus-item { margin-left: 88px; } 
+
+.footer-main .learnmore-item { margin-left: 91px; } 
+
+.footer-main .face-item {
+    height: 40px;
+    width: 40px;
+    background-image: url("../images/facebook.svg");
+    display: inline-block;
+}
+
+.face-item:hover {
+    filter: invert(68%) sepia(78%) saturate(594%) 
+    hue-rotate(338deg) brightness(83%) contrast(93%);
+    cursor: pointer;
+}
+
+.footer-main .insta-item {
+    height: 40px;
+    width: 40px;
+    background-image: url("../images/instagram.svg");
+    margin-left: 28px;
+    display: inline-block;
+}
+
+.insta-item:hover {
+    filter: invert(68%) sepia(78%) saturate(594%) 
+    hue-rotate(338deg) brightness(83%) contrast(93%);
+    cursor: pointer;
+}
+
+.footer-main .pinte-item {
+    height: 40px;
+    width: 40px;
+    background-image: url("../images/pinterest.svg");
+    margin-left: 26px;
+    display: inline-block;
+}
+
+.pinte-item:hover {
+    filter: invert(68%) sepia(78%) saturate(594%) 
+    hue-rotate(338deg) brightness(83%) contrast(93%);
+    cursor: pointer;
+}
+
+
+.footer-main .telegram-item {
+    height: 40px;
+    width: 40px;
+    background-image: url("../images/telegram.svg");
+    margin-left: 26px;
+    display: inline-block;
+}
+
+.telegram-item:hover {
+    filter: invert(68%) sepia(78%) saturate(594%) 
+    hue-rotate(338deg) brightness(83%) contrast(93%);
+    cursor: pointer;
+}
+
+.footer-main .social-items { 
+    display: flex;
+    align-items: center; 
+}
